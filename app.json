@@ -1,6 +1,6 @@
 {
-      "name": "Light_Yagami",
-      "description": "An Anime themed Telegram group management bot.",
+      "name": "𓆩𝙇𝙄𝙂𝙃𝙏 𝙔𝘼𝙂𝘼𝙈𝙄𓆪™ 🇮🇳",
+      "description": "𝐀𝐧 𝐀𝐧𝐢𝐦𝐞 𝐭𝐡𝐞𝐦𝐞𝐝 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐠𝐫𝐨𝐮𝐩 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭.",
       "keywords": [
          "telegram",
          "anime",
@@ -8,7 +8,7 @@
          "manager",
          "Light"
       ],   
-   "repository": "https://github.com/YashMorya/LightYagami",
+   "repository": "https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT",
    "addons": [
       {
          "options": {
@@ -75,7 +75,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1270288285"
+         "value": "1470850122"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -94,12 +94,12 @@
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1634488891"
+         "value": "1470850122"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "678031262"
+         "value": "1470850122"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
@@ -181,7 +181,7 @@
       "REPOSITORY": {
          "description": "Put Your Github Repository Here If You Don't Have One Just Leave It As It Is",
          "required": true,
-         "value": "https://github.com/YashMorya/LightYagami"
+         "value": "https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT"
       }
       
    }
