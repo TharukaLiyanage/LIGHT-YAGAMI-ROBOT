@@ -201,7 +201,7 @@ def unapproveall(update, context):
         "Successully unapproved all users from {}.".format(chat.title)
     )
         
-__mod_name__ = "Approval"    
+__mod_name__ = "APPROVAL"    
 
 __help__ = """ 
 \
