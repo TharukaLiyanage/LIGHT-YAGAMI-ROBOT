@@ -47,7 +47,7 @@ This Module Credits Goes To @chizurumanagementbot
  You can either enter just the song name or both the artist and song name.
 """
 
-__mod_name__ = "Lyrics"
+__mod_name__ = "LYRICS"
 
 
 
