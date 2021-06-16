@@ -51,33 +51,33 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey You {},You Are In Light's Pm
+ʜᴇʏ ʏᴏᴜ {},ʏᴏᴜ ᴀʀᴇ ɪɴ ʏᴀɢᴀᴍɪ's ᴘᴍ
 
-Nice To Meet You Dude....
+ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ᴅᴜᴅᴇ....
 
-I am an Anime themed group management bot.
-I am Made To Provide Justice To Your Group.
-Here You Can See My Power By Writing /help.
+ɪ ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
+ɪ ᴀᴍ ᴍᴀᴅᴇ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ᴊᴜsᴛɪᴄᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙʏ ᴡʀɪᴛɪɴɢ /help.
 """
 
 HELP_STRINGS = """
-[Light](https://telegra.ph/file/707a516dfc688ebb8c423.mp4) Is Here:
-Here You Can See My Power With These Power 
-I Will Manage Your Group
-And Provide Justice To Your Group
-✪ /start: Starts me! You've probably already used this.
-✪ /help: Click this, I'll let you know about myself!
+[ʟɪɢʜᴛ ʏᴀɢᴀᴍɪ](https://telegra.ph/file/c6fd956f3ea3974020439.jpg) Is Here:
+ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ᴡɪᴛʜ ᴛʜᴇsᴇ ᴘᴏᴡᴇʀ 
+ɪ ᴡɪʟʟ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+ᴀɴᴅ ᴘʀᴏᴠɪᴅᴇ ᴊᴜsᴛɪᴄᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+✪ /start: sᴛᴀʀᴛs ᴍᴇ! ʏᴏᴜ'ᴠᴇ ᴘʀᴏʙᴀʙʟʏ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ ᴛʜɪs.
+✪ /help: ᴄʟɪᴄᴋ ᴛʜɪs, ɪ'ʟʟ ʟᴇᴛ ʏᴏᴜ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ!
 ✪ /settings: 
-   ◔ in PM: will send you your settings for all supported modules.
-   ◔ in a Group: will redirect you to pm, with all that chat's settings.
+   ◔ ɪɴ ᴘᴍ: ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs.
+   ◔ ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ's sᴇᴛᴛɪɴɢs.
 """.format(
     dispatcher.bot.first_name, ""
-    if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
+    if not ALLOW_EXCL else "\nᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/4911c03742b50ad0d8bf7.jpg"
 LIGHT_IMG = "https://telegra.ph/file/5580465a8e3c4d51d5c3c.mp4"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
+DONATE_STRING = """ɴᴏ ɴᴇᴇᴅ ɪ'ᴍ ʀɪᴄʜ!
 """
 
 IMPORTED = {}
@@ -195,29 +195,29 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="⚖️Add Kira to your group⚖️",
-                            url="t.me/{}?startgroup=true".format(context.bot.username))
+                            text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕",
+                            url="t.me/LIGHT_YAGAMI_ROBOT?startgroup=true".format(context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="📢 Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ",
+                             url=f"https://t.me/YAGAMIBOT_SUPPORT"),
                          InlineKeyboardButton(
-                             text="🔔 Updates Of Light 🔔",
-                             url="https://t.me/seedofbots")
+                             text="ᴊᴏɪɴ ғᴏʀ ᴜᴘᴅᴀᴛᴇs",
+                             url="https://t.me/YAGAMIBOT_UPDATES")
                      ],
                     
                     [
                          InlineKeyboardButton(
-                             text="❤My God❤",
-                             url="https://t.me/death_note_light_yagami"),
+                             text="ᴍʏ ᴍᴀsᴛᴇʀ",
+                             url="https://t.me/PRO_MONSTER_XD"),
                          InlineKeyboardButton(
-                             text="⌨Repo🖱",
-                             url="https://github.com/YashMorya/LightYagami")
+                             text="ʏᴀɢᴀᴍɪ ᴅᴇᴠs",
+                             url="t.me/Yagamibot_devs")
                      ],[
                         InlineKeyboardButton(
-                            text="❗❔Help And Commands❔",
-                            url="t.me/{}?start=help".format(context.bot.username))
+                            text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs",
+                            url="t.me/light_yagami_robot?start=help".format(context.bot.username))
                     ]]))
     else:
         update.effective_message.reply_video(
@@ -326,11 +326,11 @@ def get_help(update: Update, context: CallbackContext):
                 ]]))
             return
         update.effective_message.reply_text(
-            "Contact me in PM to get the list of possible commands.",
+            "ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴘᴏssɪʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.",
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    text="Help",
-                    url="t.me/{}?start=help".format(context.bot.username))
+                    text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",
+                    url="t.me/LIGHT_YAGAMI_ROBOT?start=help".format(context.bot.username))
             ]]))
         return
 
@@ -341,7 +341,7 @@ def get_help(update: Update, context: CallbackContext):
         send_help(
             chat.id, text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back",
+                [[InlineKeyboardButton(text="𝗚𝗢 𝗕𝗔𝗖𝗞 🔥",
                                        callback_data="help_back")]]))
 
     else:
@@ -464,17 +464,17 @@ def get_settings(update: Update, context: CallbackContext):
     # ONLY send settings in PM
     if chat.type != chat.PRIVATE:
         if is_user_admin(chat, user.id):
-            text = "Click here to get this chat's settings, as well as yours."
+            text = "ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ᴛʜɪs ᴄʜᴀᴛ's sᴇᴛᴛɪɴɢs, ᴀs ᴡᴇʟʟ ᴀs ʏᴏᴜʀs."
             msg.reply_text(
                 text,
                 reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton(
-                        text="Settings",
-                        url="t.me/{}?start=stngs_{}".format(
+                        text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ sᴇᴛᴛɪɴɢs 🖤",
+                        url="t.me/LIGHT_YAGAMI_ROBOT?start=stngs_{}".format(
                             context.bot.username, chat.id))
                 ]]))
         else:
-            text = "Click here to check your settings."
+            text = "ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs."
 
     else:
         send_settings(chat.id, user.id, True)
@@ -535,7 +535,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Time To Write Names On Death Note")
+            dispatcher.bot.sendMessage(f"@YAGAMIBOT_SUPPORT", "Time To Write Names On Death Note")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!")
