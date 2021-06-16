@@ -41,16 +41,16 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1270288285"
+         "value": "1470850122"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Death_Note_Light_Yagami"
+         "value": "Pro_monster_xd"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "MyAwesomeSupportGroupGoesHere"
+         "value": "Yagamibot_support"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
