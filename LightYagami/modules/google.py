@@ -287,4 +287,4 @@ __help__ = """
  - /app Appname : Get download link of playstore app and info.
 """
 
-__mod_name__ = "Google"
+__mod_name__ = "GOOGLE"
