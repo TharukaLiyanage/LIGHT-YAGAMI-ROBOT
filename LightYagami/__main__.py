@@ -74,8 +74,8 @@ HELP_STRINGS = """
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/4911c03742b50ad0d8bf7.jpg"
-LIGHT_IMG = "https://telegra.ph/file/5580465a8e3c4d51d5c3c.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/6b3fe179d4784473865cf.jpg"
+LIGHT_IMG = "https://telegra.ph/file/6b3fe179d4784473865cf.jpg"
 
 DONATE_STRING = """ɴᴏ ɴᴇᴇᴅ ɪ'ᴍ ʀɪᴄʜ!
 """
