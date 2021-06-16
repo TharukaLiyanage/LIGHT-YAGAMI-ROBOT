@@ -1,13 +1,13 @@
 ![Light Yagami](https://telegra.ph/file/c6fd956f3ea3974020439.jpg)
-# Light Yagami 
+# ʟɪɢʜᴛ ʏᴀɢᴀᴍɪ 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8779f67843d045448a1e9f08f69de2fe)](https://www.codacy.com/gh/YashMorya/LightYagami/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YashMorya/LightYagami&amp;utm_campaign=Badge_Grade) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/YashMorya/LightYagami/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/seedofbots)
 
 
-A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
+ᴀ ᴍᴏᴅᴜʟᴀʀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʏᴛʜᴏɴ ʙᴏᴛ ʀᴜɴɴɪɴɢ ᴏɴ ᴘʏᴛʜᴏɴ𝟹 ᴡɪᴛʜ ᴀ sǫʟᴀʟᴄʜᴇᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ᴀɴᴅ ᴀɴ ᴇɴᴛɪʀᴇʟʏ ᴛʜᴇᴍᴇᴅ ᴘᴇʀsᴏɴᴀ ᴛᴏ ᴍᴀᴋᴇ sᴀɪᴛᴀᴍᴀ sᴜɪᴛᴀʙʟᴇ ғᴏʀ ᴀɴɪᴍᴇ ᴀɴᴅ ᴍᴀɴɢᴀ ɢʀᴏᴜᴘ ᴄʜᴀᴛs. 
 
-Can be found on telegram as [Light Yagami](https://t.me/i_am_justicebot).
+ᴄᴀɴ ʙᴇ ғᴏᴜɴᴅ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [𝓛𝓲𝓰𝓱𝓽 𝓨𝓪𝓰𝓪𝓶𝓲 🔥](https://t.me/LIGHT_YAGAMI_ROBOT).
 
-The Support group can be reached out to at [Light Yagami Support](https://t.me/treeofbots), where you can ask for help about [Light Yagami](https://t.me/i_am_justicebot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [ʏᴀɢᴀᴍɪ sᴜᴘᴘᴏʀᴛ](https://t.me/treeofbots), where you can ask for help about [Light Yagami](https://t.me/i_am_justicebot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 News channel as at [Light Yagami Updates](https://t.me/seedofbots) 
 
