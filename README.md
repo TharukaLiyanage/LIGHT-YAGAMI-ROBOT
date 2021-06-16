@@ -15,7 +15,7 @@
 
 ## Fɪɴᴅ Mᴇ
 
-<a href="https://telegram.me/LIGHT_YAGAMI_ROBOT"> <img src="https://img.shields.io/badge/You%20Can%20Find%20Me-On%20Telegram-blueviolet" /> <img src="https://img.shields.io/badge/:----------green" />  <img src="https://img.shields.io/badge/YAGAMI%20ROBOT-red" /> </a>
+<a href="https://telegram.me/LIGHT_YAGAMI_ROBOT"> <img src="https://img.shields.io/badge/You%20Can%20Find%20Me-On%20Telegram-blueviolet" /> <img src="https://img.shields.io/badge/:----------green" />  <img src="https://img.shields.io/badge/YAGAMI%20ROBOT-light-blue" /> </a>
 
 ## Sᴜᴘᴘᴏʀᴛ
 
