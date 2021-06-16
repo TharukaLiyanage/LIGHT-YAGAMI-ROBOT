@@ -195,28 +195,28 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕",
+                            text="➕ ADD ME 🤖 TO YOUR GROUP➕",
                             url="t.me/LIGHT_YAGAMI_ROBOT?startgroup=true".format(context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ",
+                             text="🎯 SUPPORT GROUP 🎯",
                              url=f"https://t.me/YAGAMIBOT_SUPPORT"),
                          InlineKeyboardButton(
-                             text="ᴊᴏɪɴ ғᴏʀ ᴜᴘᴅᴀᴛᴇs",
+                             text="🔀 JOIN FOR UPDATES 🔀",
                              url="https://t.me/YAGAMIBOT_UPDATES")
                      ],
                     
                     [
                          InlineKeyboardButton(
-                             text="ᴍʏ ᴍᴀsᴛᴇʀ",
+                             text="🔥 MY MASTER' 🔥",
                              url="https://t.me/PRO_MONSTER_XD"),
                          InlineKeyboardButton(
-                             text="ʏᴀɢᴀᴍɪ ᴅᴇᴠs",
+                             text="🇮🇳 YAGAMI DEVS 🇮🇳",
                              url="t.me/Yagamibot_devs")
                      ],[
                         InlineKeyboardButton(
-                            text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs",
+                            text="👻 HELP AND COMMANDS 👻",
                             url="t.me/light_yagami_robot?start=help".format(context.bot.username))
                     ]]))
     else:
