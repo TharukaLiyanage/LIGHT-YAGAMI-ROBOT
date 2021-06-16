@@ -408,7 +408,7 @@ dispatcher.add_handler(UNBAN_HANDLER)
 dispatcher.add_handler(ROAR_HANDLER)
 dispatcher.add_handler(killME_HANDLER)
 
-__mod_name__ = "Bans"
+__mod_name__ = "BANS"
 __handlers__ = [
     BAN_HANDLER, TEMPBAN_HANDLER, kill_HANDLER, UNBAN_HANDLER, ROAR_HANDLER,
     killME_HANDLER
