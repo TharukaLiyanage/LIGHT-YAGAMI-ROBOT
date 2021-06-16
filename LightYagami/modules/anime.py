@@ -843,4 +843,4 @@ dispatcher.add_handler(KAYO_SEARCH_HANDLER)
 dispatcher.add_handler(GANIME_SEARCH_HANDLER)
 dispatcher.add_handler(MEME_HANDLER)
 
-__mod_name__ = "Anime"
+__mod_name__ = "ANIME"
