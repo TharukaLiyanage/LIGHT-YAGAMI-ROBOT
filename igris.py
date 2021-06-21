@@ -2,7 +2,7 @@ from telethon import events
 from LightYagami import telethn
 
 """Triggers start command in pm and in groupchats"""
-def LightYagami(**args):
+def igrisbot(**args):
     """New message."""
     pattern = args.get('pattern', None)
     r_pattern = r'^[/!]'
