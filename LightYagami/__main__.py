@@ -59,15 +59,16 @@ PM_START_TEXT = """
 """
 
 HELP_STRINGS = """
-[ʟɪɢʜᴛ ʏᴀɢᴀᴍɪ](https://telegra.ph/file/c6fd956f3ea3974020439.jpg) Is Here:
-ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ᴡɪᴛʜ ᴛʜᴇsᴇ ᴘᴏᴡᴇʀ 
-ɪ ᴡɪʟʟ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
-ᴀɴᴅ ᴘʀᴏᴠɪᴅᴇ ᴊᴜsᴛɪᴄᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ
-✪ /start: sᴛᴀʀᴛs ᴍᴇ! ʏᴏᴜ'ᴠᴇ ᴘʀᴏʙᴀʙʟʏ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ ᴛʜɪs.
-✪ /help: ᴄʟɪᴄᴋ ᴛʜɪs, ɪ'ʟʟ ʟᴇᴛ ʏᴏᴜ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ!
+[𝐋𝐢𝐠𝐡𝐭 𝐘𝐚𝐠𝐚𝐦𝐢](https://telegra.ph/file/c6fd956f3ea3974020439.jpg) Is Here:
+𝐇𝐞𝐫𝐞 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫 𝐖𝐢𝐭𝐡 𝐓𝐡𝐞𝐬𝐞 𝐏𝐨𝐰𝐞𝐫 
+𝐈 𝐖𝐢𝐥𝐥 𝐌𝐚𝐧𝐚𝐠𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩
+𝐀𝐧𝐝 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐋𝐢𝐠𝐡𝐭 𝐘𝐚𝐠𝐚𝐦𝐢 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩
+✪ /start: 𝐒𝐭𝐚𝐫𝐭𝐬 𝐦𝐞! 𝐘𝐨𝐮'𝐯𝐞 𝐩𝐫𝐨𝐛𝐚𝐛𝐥𝐲 𝐚𝐥𝐫𝐞𝐚𝐝𝐲 𝐮𝐬𝐞𝐝 𝐭𝐡𝐢𝐬.
+✪ /help: 𝐂𝐥𝐢𝐜𝐤 𝐭𝐡𝐢𝐬, 𝐈'𝐥𝐥 𝐥𝐞𝐭 𝐲𝐨𝐮 𝐤𝐧𝐨𝐰 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲𝐬𝐞𝐥𝐟!
 ✪ /settings: 
-   ◔ ɪɴ ᴘᴍ: ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs.
-   ◔ ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ's sᴇᴛᴛɪɴɢs.
+   ◔ 𝐢𝐧 𝐏𝐌: 𝐰𝐢𝐥𝐥 𝐬𝐞𝐧𝐝 𝐲𝐨𝐮 𝐲𝐨𝐮𝐫 𝐬𝐞𝐭𝐭𝐢𝐧𝐠𝐬 𝐟𝐨𝐫 𝐚𝐥𝐥 𝐬𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝 𝐦𝐨𝐝𝐮𝐥𝐞𝐬.
+   ◔ 𝐢𝐧 𝐚 𝐆𝐫𝐨𝐮𝐩: 𝐰𝐢𝐥𝐥 𝐫𝐞𝐝𝐢𝐫𝐞𝐜𝐭 𝐲𝐨𝐮 𝐭𝐨 𝐩𝐦, 𝐰𝐢𝐭𝐡 𝐚𝐥𝐥 𝐭𝐡𝐚𝐭 𝐜𝐡𝐚𝐭'𝐬 𝐬𝐞𝐭𝐭𝐢𝐧𝐠𝐬.
+""".format(
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.\n")
@@ -193,28 +194,28 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="➕ ADD ME 🤖 TO YOUR GROUP➕",
+                            text="➕ 𝐀𝐃𝐃 𝐌𝐄 🤖 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕",
                             url="t.me/LIGHT_YAGAMI_ROBOT?startgroup=true".format(context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🎯 SUPPORT GROUP 🎯",
+                             text="🎯 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 🎯",
                              url=f"https://t.me/YAGAMIBOT_SUPPORT"),
                          InlineKeyboardButton(
-                             text="🔀 JOIN FOR UPDATES 🔀",
+                             text="🔀 𝐉𝐎𝐈𝐍 𝐅𝐎𝐑 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🔀",
                              url="https://t.me/YAGAMIBOT_UPDATES")
                      ],
                     
                     [
                          InlineKeyboardButton(
-                             text="🔥 MY MASTER' 🔥",
+                             text="🔥 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥",
                              url="https://t.me/PRO_MONSTER_XD"),
                          InlineKeyboardButton(
-                             text="🇮🇳 YAGAMI DEVS 🇮🇳",
+                             text="🇮🇳 𝐘𝐀𝐆𝐀𝐌𝐈 𝐃𝐄𝐕𝐒 🇮🇳",
                              url="t.me/Yagamibot_devs")
                      ],[
                         InlineKeyboardButton(
-                            text="👻 HELP AND COMMANDS 👻",
+                            text="👻 𝐇𝐄𝐋𝐏 𝐀𝐍𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 👻",
                             url="t.me/light_yagami_robot?start=help".format(context.bot.username))
                     ]]))
     else:
