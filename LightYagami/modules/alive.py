@@ -15,13 +15,9 @@ import re, os
 from LightYagami.events import register
 from LightYagami import telethn as LightYagami
 from LightYagami import telethn as LightYagami
-edit_time = 5
-"""
-file1 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
-file2 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
-file3 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
-file4 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
-"""
+PHOTO = "https://telegra.ph/file/c6efc62f25c2cfe876ba4.mp4"
+PHOTO = "https://telegra.ph/file/1f536c7194b8304f9d43c.jpg"
+PHOTO = "https://telegra.ph/file/a868d9f3c4f39f67327e8.mp4"
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
@@ -32,10 +28,9 @@ async def awake(event):
   LEGENDX += "ғʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ\n\n"
   LEGENDX += "ᴛᴇʟᴇᴛʜᴏɴ : 1.19.5 ʟᴀᴛᴇsᴛ\n\n"
   LEGENDX += "ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅ ᴍᴇ ʜᴇʀᴇ"
-  BUTTON = [[Button.url("💻 ᴍᴀsᴛᴇʀ 💻", "https://t.me/ITZ_KING_VENOM"), Button.url("💻 ᴅᴇᴠʟᴏᴘᴇʀ 💻", "https://t.me/ITS_DEVIL_OP")]]
-  BUTTON +=[[Button.url("💻Uᴘᴅᴀᴛᴇs💻", "https://t.me/YAGAMIBOT_UPDATES"), Button.url("💻Sᴜᴘᴘᴏʀᴛ💻", "https://t.me/YAGAMIBOT_SUPPORT")]]
-  BUTTON += [[custom.Button.inline("𝐋𝐞𝐭'𝐬 𝐊𝐢𝐥𝐥 𝐁𝐚𝐝 𝐏𝐞𝐨𝐩𝐥𝐞𝐬
-𝐁𝐲 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐓𝐡𝐨𝐬𝐞 𝐍𝐚𝐦𝐞 𝐎𝐧 𝐃𝐞𝐚𝐭𝐡 𝐍𝐨𝐭𝐞", data="LEGENDX")]]
+  BUTTON = [[Button.url("💻 𝐌𝐀𝐒𝐓𝐄𝐑 💻", "https://t.me/ITZ_KING_VENOM"), Button.url("💻 𝐃𝐄𝐕𝐋𝐎𝐏𝐄𝐑 💻", "https://t.me/ITS_DEVIL_OP")]]
+  BUTTON +=[[Button.url("💻𝐔𝐏𝐃𝐀𝐓𝐄𝐒💻", "https://t.me/YAGAMIBOT_UPDATES"), Button.url("💻 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 💻", "https://t.me/YAGAMIBOT_SUPPORT")]]
+  BUTTON += [[custom.Button.inline(" 𝐈'𝐌 𝐊𝐈𝐑𝐀 😈", data="LEGENDX")]]
   await LightYagami.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
 
 
