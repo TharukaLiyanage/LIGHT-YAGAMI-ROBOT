@@ -15,7 +15,7 @@ import re, os
 from LightYagami.events import register
 from LightYagami import telethn as LightYagami
 from LightYagami import telethn as LightYagami
-PHOTO = "https://telegra.ph/file/6f18a2115a76cb6285bb5.jpg"
+PHOTO = "https://telegra.ph/file/c6efc62f25c2cfe876ba4.mp4"
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
