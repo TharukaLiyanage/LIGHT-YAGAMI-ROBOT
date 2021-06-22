@@ -19,16 +19,16 @@ PHOTO = "https://telegra.ph/file/6f18a2115a76cb6285bb5.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
-  LEGENDX = "ʜᴇʏᴀᴀ ɪ'ᴍ ᴘɪᴋᴀᴄʜᴜ 🔥\n\n"
+  LEGENDX = "ʜᴇʏᴀᴀ ɪ'ᴍ ʟɪɢʜᴛ ʏᴀɢᴀᴍɪ 🔥\n\n"
   LEGENDX += "ᴀʟʟ sʏsᴛᴇᴍ ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n\n"
-  LEGENDX += "ᴘɪᴋᴀᴄʜᴜ ᴏs : 3.8 ʟᴀᴛᴇsᴛ\n\n"
-  LEGENDX += f"ᴍʏ ᴍᴀsᴛᴇʀ Aɴᴏɴʏᴍᴏᴜs™🇮🇳\n\n"
+  LEGENDX += "ʟɪɢʜᴛ ʏᴀɢᴀᴍɪ ᴏs : 3.8 ʟᴀᴛᴇsᴛ\n\n"
+  LEGENDX += f"ᴍʏ ᴍᴀsᴛᴇʀ #ᴅᴇᴠɪʟ™🇮🇳\n\n"
   LEGENDX += "ғʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ\n\n"
   LEGENDX += "ᴛᴇʟᴇᴛʜᴏɴ : 1.19.5 ʟᴀᴛᴇsᴛ\n\n"
   LEGENDX += "ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅ ᴍᴇ ʜᴇʀᴇ"
-  BUTTON = [[Button.url("💻 ᴍᴀsᴛᴇʀ 💻", "https://t.me/PYTHON_CODER_SRINIVAS"), Button.url("💻 ᴅᴇᴠʟᴏᴘᴇʀ 💻", "https://t.me/XD_ANONYMOUS")]]
-  BUTTON +=[[Button.url("💻Uᴘᴅᴀᴛᴇs💻", "https://t.me/PIKACHUROBOT_UPDATES"), Button.url("💻Sᴜᴘᴘᴏʀᴛ💻", "https://t.me/PIKACHUROBOT_SUPPORT")]]
-  BUTTON += [[custom.Button.inline("ᴘɪᴋᴀᴄʜᴜ ᴏɴ ғɪʀᴇ 🔥", data="LEGENDX")]]
+  BUTTON = [[Button.url("💻 ᴍᴀsᴛᴇʀ 💻", "https://t.me/ITZ_KING_VENOM"), Button.url("💻 ᴅᴇᴠʟᴏᴘᴇʀ 💻", "https://t.me/ITS_DEVIL_OP")]]
+  BUTTON +=[[Button.url("💻Uᴘᴅᴀᴛᴇs💻", "https://t.me/YAGAMIBOT_UPDATES"), Button.url("💻Sᴜᴘᴘᴏʀᴛ💻", "https://t.me/YAGAMIBOT_SUPPORT")]]
+  BUTTON += [[custom.Button.inline("lol", data="LEGENDX")]]
   await tgbot.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
 
 
