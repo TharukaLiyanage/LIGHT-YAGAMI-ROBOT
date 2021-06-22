@@ -13,8 +13,8 @@
 from telethon import events, Button, custom
 import re, os
 from LightYagami.events import register
-from LightYagami import telethn as tgbot
-from LightYagami import telethn as tgbot
+from LightYagami import telethn as LightYagami
+from LightYagami import telethn as LightYagami
 PHOTO = "https://telegra.ph/file/6f18a2115a76cb6285bb5.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
@@ -29,18 +29,18 @@ async def awake(event):
   BUTTON = [[Button.url("💻 ᴍᴀsᴛᴇʀ 💻", "https://t.me/PYTHON_CODER_SRINIVAS"), Button.url("💻 ᴅᴇᴠʟᴏᴘᴇʀ 💻", "https://t.me/XD_ANONYMOUS")]]
   BUTTON +=[[Button.url("💻Uᴘᴅᴀᴛᴇs💻", "https://t.me/PIKACHUROBOT_UPDATES"), Button.url("💻Sᴜᴘᴘᴏʀᴛ💻", "https://t.me/PIKACHUROBOT_SUPPORT")]]
   BUTTON += [[custom.Button.inline("ᴘɪᴋᴀᴄʜᴜ ᴏɴ ғɪʀᴇ 🔥", data="LEGENDX")]]
-  await tbot.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
+  await tgbot.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
 
 
 
 
-@tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"LEGENDX")))
+@LightYagami.on(events.callbackquery.CallbackQuery(data=re.compile(b"LEGENDX")))
 async def callback_query_handler(event):
 # ɪɴʟɪɴᴇ ʙʏ  @XD_ANONYMOUS 🔥
    PROBOYX =[[Button.url("sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", "https://t.me/PIKACHUROBOT_UPDATES"), Button.url("SUPPORT", "https://t.me/PIKACHUROBOT_SUPPORT")]]
    PROBOYX +=[[custom.Button.inline("ᴀʟɪᴠᴇ", data="PROBOY")]]
   
-@tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"PROBOY")))
+@LightYagami.on(events.callbackquery.CallbackQuery(data=re.compile(b"PROBOY")))
 async def callback_query_handler(event):
   global PHOTO
   legendx = event.sender.first_name
