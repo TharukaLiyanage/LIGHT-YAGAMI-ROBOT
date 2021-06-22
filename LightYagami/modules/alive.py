@@ -5,8 +5,8 @@
 import asyncio
 import random
 from telethon import events
-from userbot.utils import admin_cmd
-from userbot import ALIVE_NAME
+from LightYagami.utils import admin_cmd
+from LightYagami import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOT"
