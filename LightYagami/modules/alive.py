@@ -1,51 +1,68 @@
-# COPYRIGHT (C) 2021 BY ANONYMOUS
+# Thanks to @PYTHON_CODER_SRINIVAS.. 
+# animation Idea by @PYTHON_CODER_SRINIVAS
+# Made by @PYTHON_CODER_SRINIVAS...and thanks to @PYTHON_CODER_SRINIVAS...the logos...
+# Kang with credits else gay...
+import asyncio
+import random
+from telethon import events
+from userbot.utils import admin_cmd
+from userbot import ALIVE_NAME
+from telethon.tl.types import ChannelParticipantsAdmins
+# 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOT"
 
-"""
-(((((((((((((((((((((((@XD_ANONYMOUS)))))))))))))))))))))))))))
-(((((((((((((((((((((((@XD_ANONYMOUS)))))))))))))))))))))))))))
-(((((((((((((((((((((((@XD_ANONYMOUS)))))))))))))))))))))))))))
-(((((((((((((((((((((((@XD_ANONYMOUS)))))))))))))))))))))))))))
-                 MADE BY ANONYMOUS
-                   #PIKACHU_ON_FIRE
-               #ANONYMOUS_OP_BOLTE HAHAHAHA
-"""
+# Thanks to ASHUTOSH BRO.. 
+# animation Idea by @PYTHON_CODER_SRINIVAS (op coder)
+# Made by @PYTHON_CODER_SRINIVAS...and thanks to @koi_nhi_apna for the logos...
+# Kang with credits else gay...
+# alive.py for ɖǟʀӄ ֆɦǟɖօա
 
-from telethon import events, Button, custom
-import re, os
-from LightYagami.events import register
-from LightYagami import telethn as LightYagami
-from LightYagami import telethn as LightYagami
-PHOTO = "https://telegra.ph/file/c6efc62f25c2cfe876ba4.mp4"
-@register(pattern=("/alive"))
-async def awake(event):
-  legendx = event.sender.first_name
-  LEGENDX = "ʜᴇʏᴀᴀ ɪ'ᴍ ʟɪɢʜᴛ ʏᴀɢᴀᴍɪ 🔥\n\n"
-  LEGENDX += "ᴀʟʟ sʏsᴛᴇᴍ ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n\n"
-  LEGENDX += "ʟɪɢʜᴛ ʏᴀɢᴀᴍɪ ᴏs : 3.8 ʟᴀᴛᴇsᴛ\n\n"
-  LEGENDX += f"ᴍʏ ᴍᴀsᴛᴇʀ #ᴅᴇᴠɪʟ™🇮🇳\n\n"
-  LEGENDX += "ғʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ\n\n"
-  LEGENDX += "ᴛᴇʟᴇᴛʜᴏɴ : 1.19.5 ʟᴀᴛᴇsᴛ\n\n"
-  LEGENDX += "ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅ ᴍᴇ ʜᴇʀᴇ"
-  BUTTON = [[Button.url("💻 ᴍᴀsᴛᴇʀ 💻", "https://t.me/ITZ_KING_VENOM"), Button.url("💻 ᴅᴇᴠʟᴏᴘᴇʀ 💻", "https://t.me/ITS_DEVIL_OP")]]
-  BUTTON +=[[Button.url("💻Uᴘᴅᴀᴛᴇs💻", "https://t.me/YAGAMIBOT_UPDATES"), Button.url("💻Sᴜᴘᴘᴏʀᴛ💻", "https://t.me/YAGAMIBOT_SUPPORT")]]
-  BUTTON += [[custom.Button.inline("lol", data="LEGENDX")]]
-  await LightYagami.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
+edit_time = 5
+""" =======================CONSTANTS====================== """
+file1 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
+file2 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
+file3 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
+file4 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
+""" =======================CONSTANTS====================== """
+pm_caption = "devil king 😈 ɨֆ օռʟɨռɛ..!! **🔥🔥\n\n"
+pm_caption += "⚔️⚔️ **Master, Am Alive And Systems Are Working Perfectly As It Should Be...**⚔️⚔️\n\n"
+pm_caption += "༆༄☠︎︎About My System \n\n"
+pm_caption += "🔥🔥 **ᴛᴇʟᴇᴛʜᴏɴ**🔥🔥 >>》 15.0.0\n"
+pm_caption += "🚨🚨 **group**🚨🚨   >>》 [ʝօɨռ](https://t.me/TheEdutainmentAdda)\n"
+pm_caption += f"🔰🔰**ᴍᴀsᴛᴇʀ**🔰🔰  >>》 {DEFAULTUSER}\n"
+pm_caption += "🌏🌏 **ᴄʀᴇᴀᴛᴏʀ**🌏🌏  >>》 [ᴏᴡɴᴇʀ](https://t.me/@Devil_killer1st)\n\n"
+pm_caption += "🔶🔶 **ᴄʀᴇᴅɪᴛs**🔶🔶  >>》 [ʙʀᴏ](https://t.me/respectgirls1st)\n\n"
+pm_caption += "[....▄███▄███▄\n....█████████\n.......▀█████▀\n...............▀█▀\n](https://t.m/TheEdutainmentAdda)\n\n"
+@borg.on(admin_cmd(pattern=r"alive"))
 
+async def amireallyalive(yes):
+    chat = await yes.get_chat()
 
+    on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
 
+    await asyncio.sleep(edit_time)
+    ok = await borg.edit_message(yes.chat_id, on, file=file2) 
 
-@LightYagami.on(events.callbackquery.CallbackQuery(data=re.compile(b"LEGENDX")))
-async def callback_query_handler(event):
-# ɪɴʟɪɴᴇ ʙʏ  @XD_ANONYMOUS 🔥
-   PROBOYX =[[Button.url("sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", "https://t.me/PIKACHUROBOT_UPDATES"), Button.url("SUPPORT", "https://t.me/PIKACHUROBOT_SUPPORT")]]
-   PROBOYX +=[[custom.Button.inline("ᴀʟɪᴠᴇ", data="PROBOY")]]
-  
-@LightYagami.on(events.callbackquery.CallbackQuery(data=re.compile(b"PROBOY")))
-async def callback_query_handler(event):
-  global PHOTO
-  legendx = event.sender.first_name
+    await asyncio.sleep(edit_time)
+    ok2 = await borg.edit_message(yes.chat_id, ok, file=file3)
 
-__help__ = """
- - /alive ᴄʜᴇᴄᴋ ʙᴏᴛ ᴀʟɪᴠᴇ ᴏʀ ᴅɪᴇ
-"""
-__mod_name__ = "ALIVE"
+    await asyncio.sleep(edit_time)
+    ok3 = await borg.edit_message(yes.chat_id, ok2, file=file1)
+    
+    await asyncio.sleep(edit_time)
+    ok4 = await borg.edit_message(yes.chat_id, ok3, file=file3)
+    
+    await asyncio.sleep(edit_time)
+    ok5 = await borg.edit_message(yes.chat_id, ok4, file=file2)
+    
+    await asyncio.sleep(edit_time)
+    ok6 = await borg.edit_message(yes.chat_id, ok5, file=file1)
+    
+    await asyncio.sleep(edit_time)
+    ok7 = await borg.edit_message(yes.chat_id, ok6, file=file4)
+
+    await alive.delete()
+    
+    """ For .alive command, check if the bot is running.  """
+    await borg.send_file(alive.chat_id, PM_IMG,caption=pm_caption)
+    await alive.delete()
