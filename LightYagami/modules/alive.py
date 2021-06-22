@@ -26,8 +26,8 @@ async def awake(event):
   LEGENDX += "✘ 𝐅𝐔𝐋𝐋𝐘 𝐔𝐏𝐃𝐀𝐓𝐄𝐃\n\n"
   LEGENDX += "✘ 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 : 𝟏. 𝟏𝟗. 𝟓 𝐋𝐀𝐓𝐄𝐒𝐓\n\n"
   LEGENDX += "✘ 𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐄 𝐇𝐄𝐑𝐄"
-  BUTTON = [[Button.url("💻 𝐌𝐀𝐒𝐓𝐄𝐑 💻", "https://t.me/ITZ_KING_VENOM"), Button.url("💻 𝐃𝐄𝐕𝐋𝐎𝐏𝐄𝐑 💻", "https://t.me/ITS_DEVIL_OP")]]
-  BUTTON +=[[Button.url("💻𝐔𝐏𝐃𝐀𝐓𝐄𝐒💻", "https://t.me/YAGAMIBOT_UPDATES"), Button.url("💻 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 💻", "https://t.me/YAGAMIBOT_SUPPORT")]]
+  BUTTON = [[Button.url("💻𝐌𝐀𝐒𝐓𝐄𝐑💻", "https://t.me/ITZ_KING_VENOM"), Button.url("💻𝐃𝐄𝐕𝐋𝐎𝐏𝐄𝐑💻", "https://t.me/ITS_DEVIL_OP")]]
+  BUTTON +=[[Button.url("💻𝐔𝐏𝐃𝐀𝐓𝐄𝐒💻", "https://t.me/YAGAMIBOT_UPDATES"), Button.url("💻𝐒𝐔𝐏𝐏𝐎𝐑𝐓💻", "https://t.me/YAGAMIBOT_SUPPORT")]]
   BUTTON += [[custom.Button.inline(" 𝐈'𝐌 𝐊𝐈𝐑𝐀 😈", data="LEGENDX")]]
   await LightYagami.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
 
