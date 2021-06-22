@@ -1,4 +1,4 @@
-# credits @SHUBHAM, @DEVIL
+# credits #SHUBHAM, #DEVIL
 
 import logging
 import time
@@ -86,7 +86,7 @@ def _check_member(client, message):
             except UserNotParticipant:
                 try:
                     sent_message = message.reply_text(
-                        "Welcome {} 🙏 \n **You havent joined our @{} Channel yet** 😭 \n \nPlease Join [Our Channel](https://t.me/{}) and hit the **UNMUTE ME** Button. \n \n ".format(
+                        "𝐖𝐄𝐋𝐂𝐎𝐌𝐄 {} 🙏 \n **𝐘𝐎𝐔 𝐇𝐀𝐕𝐄𝐍'𝐓 𝐉𝐎𝐈𝐍𝐄𝐃 𝐎𝐔𝐑 @{} 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐘𝐄𝐓** 😭 \n \n𝐏𝐋𝐙 𝐉𝐎𝐈𝐍 [𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋](https://t.me/{}) 𝐀𝐍𝐃 𝐇𝐈𝐓 𝐓𝐇𝐄 **𝗨𝗡𝗠𝗨𝗧𝗘 𝗠𝗘** 𝐁𝐔𝐓𝐓𝐎𝐍. \n \n ".format(
                             message.from_user.mention, channel, channel
                         ),
                         disable_web_page_preview=True,
@@ -94,13 +94,13 @@ def _check_member(client, message):
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "Join Channel",
+                                        "𝐉𝐎𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋",
                                         url="https://t.me/{}".format(channel),
                                     )
                                 ],
                                 [
                                     InlineKeyboardButton(
-                                        "UnMute Me", callback_data="onUnMuteRequest"
+                                        "𝐔𝐍𝐌𝐔𝐓𝐄 𝐌𝐄", callback_data="onUnMuteRequest"
                                     )
                                 ],
                             ]
@@ -111,7 +111,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "❗ **Daisy is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "❗ **Kira is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
@@ -196,4 +196,4 @@ __help__ = """
   💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
  ❍ /fsub clear - To unmute all members who muted by me.
 """
-__mod_name__ = "F-Sub"
+__mod_name__ = "F-SUB"
