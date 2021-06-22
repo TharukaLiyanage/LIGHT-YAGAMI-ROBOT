@@ -48,4 +48,5 @@ async def callback_query_handler(event):
 help = """
  - /alive ᴄʜᴇᴄᴋ ʙᴏᴛ ᴀʟɪᴠᴇ ᴏʀ ᴅɪᴇ
 """
-mod_name = "ALIVE"
+__mod_name__= "ALIVE"
+__command_list__ = []
