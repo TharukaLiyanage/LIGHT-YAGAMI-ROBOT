@@ -16,12 +16,12 @@ from LightYagami.events import register
 from LightYagami import telethn as LightYagami
 from LightYagami import telethn as LightYagami
 edit_time = 5
-""" =======================CONSTANTS====================== """
+"""
 file1 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
 file2 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
 file3 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
 file4 = "https://telegra.ph/file/4e3f8b0d846c2c87352d7.mp4"
-""" =======================CONSTANTS========
+"""
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
