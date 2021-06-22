@@ -15,19 +15,19 @@ import re, os
 from LightYagami.events import register
 from LightYagami import telethn as LightYagami
 from LightYagami import telethn as LightYagami
-PHOTO = "https://telegra.ph/file/c6efc62f25c2cfe876ba4.mp4"
-PHOTO = "https://telegra.ph/file/1f536c7194b8304f9d43c.jpg"
-PHOTO = "https://telegra.ph/file/a868d9f3c4f39f67327e8.mp4"
+PHOTO 1 = "https://telegra.ph/file/c6efc62f25c2cfe876ba4.mp4"
+PHOTO 2 = "https://telegra.ph/file/1f536c7194b8304f9d43c.jpg"
+PHOTO 3 = "https://telegra.ph/file/a868d9f3c4f39f67327e8.mp4"
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
-  LEGENDX = "ʜᴇʏᴀᴀ ɪ'ᴍ ʟɪɢʜᴛ ʏᴀɢᴀᴍɪ 🔥\n\n"
-  LEGENDX += "ᴀʟʟ sʏsᴛᴇᴍ ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n\n"
-  LEGENDX += "ʟɪɢʜᴛ ʏᴀɢᴀᴍɪ ᴏs : 3.8 ʟᴀᴛᴇsᴛ\n\n"
-  LEGENDX += f"ᴍʏ ᴍᴀsᴛᴇʀ #ᴅᴇᴠɪʟ™🇮🇳\n\n"
-  LEGENDX += "ғʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ\n\n"
-  LEGENDX += "ᴛᴇʟᴇᴛʜᴏɴ : 1.19.5 ʟᴀᴛᴇsᴛ\n\n"
-  LEGENDX += "ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅ ᴍᴇ ʜᴇʀᴇ"
+LEGENDX = "𝐇𝐄𝐘𝐀𝐀 𝐈'𝐌 𝐋𝐈𝐆𝐇𝐓 𝐘𝐀𝐆𝐀𝐌𝐈 😈\n\n"
+LEGENDX += "𝐀𝐋𝐋 𝐒𝐘𝐒𝐓𝐄𝐌 𝐖𝐎𝐑𝐊𝐈𝐍𝐆 𝐏𝐑𝐎𝐏𝐄𝐑𝐋𝐘\n\n"
+LEGENDX += "𝐋𝐈𝐆𝐇𝐓 𝐘𝐀𝐆𝐀𝐌𝐈 𝐎𝐒 : 𝟑. 𝟖 𝐋𝐄𝐓𝐄𝐒𝐓\n\n"
+LEGENDX += f"𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑  🇮🇳 #𝐃𝐄𝐕𝐈𝐋 🇮🇳\n\n"
+LEGENDX += "𝐅𝐔𝐋𝐋𝐘 𝐔𝐏𝐃𝐀𝐓𝐄𝐃\n\n"
+LEGENDX += "𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 : 𝟏. 𝟏𝟗. 𝟓 𝐋𝐀𝐓𝐄𝐒𝐓\n\n"
+LEGENDX += "𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐄 𝐇𝐄𝐑𝐄"
   BUTTON = [[Button.url("💻 𝐌𝐀𝐒𝐓𝐄𝐑 💻", "https://t.me/ITZ_KING_VENOM"), Button.url("💻 𝐃𝐄𝐕𝐋𝐎𝐏𝐄𝐑 💻", "https://t.me/ITS_DEVIL_OP")]]
   BUTTON +=[[Button.url("💻𝐔𝐏𝐃𝐀𝐓𝐄𝐒💻", "https://t.me/YAGAMIBOT_UPDATES"), Button.url("💻 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 💻", "https://t.me/YAGAMIBOT_SUPPORT")]]
   BUTTON += [[custom.Button.inline(" 𝐈'𝐌 𝐊𝐈𝐑𝐀 😈", data="LEGENDX")]]
