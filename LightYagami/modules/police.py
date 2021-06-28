@@ -26,7 +26,7 @@ police_siren = [
 @user_admin
 @run_async
 def police(bot: Bot, update: Update):
-    msg = update.effective_message.reply_text('Police is coming!') 
+    msg = update.effective_message.reply_text('Police Is Here Bsdk') 
     for x in range(EDIT_TIMES):
         msg.edit_text(police_siren[x%2])
         time.sleep(EDIT_SLEEP)
