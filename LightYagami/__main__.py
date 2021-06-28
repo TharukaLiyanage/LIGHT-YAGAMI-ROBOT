@@ -219,7 +219,8 @@ def start(update: Update, context: CallbackContext):
                     ]]))
     else:
         update.effective_message.reply_video(
-                LIGHT_IMG, caption=f"𝐋𝐞𝐭'𝐬 𝐊𝐢𝐥𝐥 𝐁𝐚𝐝 𝐏𝐞𝐨𝐩𝐥𝐞𝐬\n𝐁𝐲 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐓𝐡𝐨𝐬𝐞 𝐍𝐚𝐦𝐞 𝐎𝐧 𝐃𝐞𝐚𝐭𝐡 𝐍𝐨𝐭𝐞")      
+                LIGHT_IMG, caption=f"================================ 𝐇𝐞𝐥𝐥𝐨 𝐈'𝐌 𝐊𝐢𝐫𝐚 😈  𝐋𝐞𝐭'𝐬 𝐊𝐢𝐥𝐥 𝐁𝐚𝐝 𝐏𝐞𝐨𝐩𝐥𝐞𝐬\n𝐁𝐲 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐓𝐡𝐨𝐬𝐞 𝐍𝐚𝐦𝐞 𝐎𝐧 𝐃𝐞𝐚𝐭𝐡 𝐍𝐨𝐭𝐞 
+================================")      
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
     error = context.error
