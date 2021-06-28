@@ -73,7 +73,7 @@ HELP_STRINGS = """
     if not ALLOW_EXCL else "\nᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/ec96ed00f0762e47ba35b.jpg"
-LIGHT_IMG = "https://telegra.ph/file/571dd0a2ecd4dbb69ddd4.mp4"
+LIGHT_IMG = "https://telegra.ph/file/04187c8699b523c6e796f.mp4"
 
 DONATE_STRING = """ɴᴏ ɴᴇᴇᴅ ɪ'ᴍ ʀɪᴄʜ!
 """
