@@ -199,10 +199,10 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🎯 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 🎯",
-                             url=f"https://t.me/YAGAMIBOT_SUPPORT"),
+                             url=f"https://t.me/KIRASUPPORT"),
                          InlineKeyboardButton(
                              text="🔀 𝐉𝐎𝐈𝐍 𝐅𝐎𝐑 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🔀",
-                             url="https://t.me/YAGAMIBOT_UPDATES")
+                             url="https://t.me/KIRAUPDATESS")
                      ],
                     
                     [
@@ -211,7 +211,7 @@ def start(update: Update, context: CallbackContext):
                              url="https://t.me/https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT"),
                          InlineKeyboardButton(
                              text="🇮🇳 𝐘𝐀𝐆𝐀𝐌𝐈 𝐃𝐄𝐕𝐒 🇮🇳",
-                             url="t.me/Yagamibot_devs")
+                             url="t.me/KIRA_DEVS")
                      ],[
                         InlineKeyboardButton(
                             text="👻 𝐇𝐄𝐋𝐏 𝐀𝐍𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 👻",
