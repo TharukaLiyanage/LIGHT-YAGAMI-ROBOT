@@ -6,7 +6,7 @@ from typing import List
 from telegram import Bot, Update, ParseMode
 from telegram.ext import run_async
 
-from LightYag import dispatcher
+from LightYagami import dispatcher
 from LightYagami.modules.disable import DisableAbleCommandHandler
 from LightYagami.modules.helper_funcs.chat_status import is_user_admin, user_admin
 from LightYagami.modules.helper_funcs.extraction import extract_user
