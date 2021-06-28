@@ -208,7 +208,7 @@ def start(update: Update, context: CallbackContext):
                     [
                          InlineKeyboardButton(
                              text="🔴 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄 🔴",
-                             url="https://t.me/https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT"),
+                             url="https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT"),
                          InlineKeyboardButton(
                              text="🇮🇳 𝐘𝐀𝐆𝐀𝐌𝐈 𝐃𝐄𝐕𝐒 🇮🇳",
                              url="t.me/KIRA_DEVS")
