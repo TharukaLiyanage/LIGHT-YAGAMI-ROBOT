@@ -11,7 +11,7 @@
 
 ## Mᴀᴅᴇ Bʏ
 
-<a href="https://telegram.me/ROCKY_8218_XD"> <img src="https://img.shields.io/badge/This%20Bot%20Was-Made%20By%20My-orange" /> <img src="https://img.shields.io/badge/Bestest-Master-ff69b4" /> </a>
+<a href="https://telegram.me/ITZ_DEVIL_OP"> <img src="https://img.shields.io/badge/This%20Bot%20Was-Made%20By%20My-orange" /> <img src="https://img.shields.io/badge/Bestest-Master-ff69b4" /> </a>
 
 ## Fɪɴᴅ Mᴇ
 
@@ -19,7 +19,7 @@
 
 ## Sᴜᴘᴘᴏʀᴛ
 
-<a href="https://telegram.me/YAGAMIBOT_SUPPORT"> <img src="https://img.shields.io/badge/Join-Our-green" /> <img src="https://img.shields.io/badge/Support-Group-critical" /> </a>
+<a href="https://telegram.me/kiraSUPPORT"> <img src="https://img.shields.io/badge/Join-Our-green" /> <img src="https://img.shields.io/badge/Support-Group-critical" /> </a>
 
 ## Sᴏᴜʀᴄᴇ
 
