@@ -4,7 +4,7 @@
     <a href="https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT/network/members"><img src="https://img.shields.io/github/forks/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
 </p>
 
-![logo](https://telegra.ph/file/cc88dbdee291bfbf4c5a5.mp4)
+![logo](https://telegra.ph/file/cc88dbdee291bfbf4c5a5.mp3)
 <p align="center">
 
 # Credits
