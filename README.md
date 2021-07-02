@@ -1,7 +1,7 @@
 # ℓιgнт уαgαмι 🇮🇳
 <p align="center">
-    <a href="https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT/stargazers"><img src="https://img.shields.io/github/stars/LEGEND-Xxxxx/PiKaCHu-pRoBoT?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
-    <a href="https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT/network/members"><img src="https://img.shields.io/github/forks/LEGEND-Xxxxx/PiKaCHu-pRoBoT?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
+    <a href="https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT/stargazers"><img src="https://img.shields.io/github/stars/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT/network/members"><img src="https://img.shields.io/github/forks/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
 </p>
 
 ![logo](https://telegra.ph/file/19d3e64192ed3037792ab.jpg)
