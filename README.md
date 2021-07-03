@@ -4,6 +4,8 @@
     <a href="https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT/network/members"><img src="https://img.shields.io/github/forks/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
 </p>
 
+# <p align="left"><a href="https://github.com/LEGEND-Xxxxx/LIGHT-YAGAMI-ROBOT"><img src="https://github-readme-stats.vercel.app/api/pin?username=LEGEND-Xxxxx&show_icons=true&theme=dark&hide_border=true&repo=LIGHT-YAGAMI-ROBOT">
+
 ![logo](https://telegra.ph/file/19d3e64192ed3037792ab.jpg)
 <p align="center">
 
