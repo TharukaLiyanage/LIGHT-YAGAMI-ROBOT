@@ -1,10 +1,10 @@
 # ℓιgнт уαgαмι 🇮🇳
 <p align="center">
-    <a href="https://github.com/ITZ-DEVIL-OP/LIGHT-YAGAMI-ROBOT/stargazers"><img src="https://img.shields.io/github/stars/ITZ_DEVIL_OP/LIGHT-YAGAMI-ROBOT?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
-    <a href="https://github.com/ITZ-DEVIL-OP/LIGHT-YAGAMI-ROBOT/network/members"><img src="https://img.shields.io/github/forks/ITZ_DEVIL_OP/LIGHT-YAGAMI-ROBOT?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
+    <a href="https://github.com/ITZ-DEVIL-OP/LIGHT-YAGAMI-ROBOT/stargazers"><img src="https://img.shields.io/github/stars/ITZ-DEVIL-OP/LIGHT-YAGAMI-ROBOT?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/ITZ-DEVIL-OP/LIGHT-YAGAMI-ROBOT/network/members"><img src="https://img.shields.io/github/forks/ITZ-DEVIL-OP/LIGHT-YAGAMI-ROBOT?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
 </p>
 
-# <p align="left"><a href="https://github.com/ITZ_DEVIL_OP/LIGHT-YAGAMI-ROBOT"><img src="https://github-readme-stats.vercel.app/api/pin?username=ITZ-DEVIL-OP&show_icons=true&theme=dark&hide_border=true&repo=LIGHT-YAGAMI-ROBOT">
+# <p align="left"><a href="https://github.com/ITZ-DEVIL-OP/LIGHT-YAGAMI-ROBOT"><img src="https://github-readme-stats.vercel.app/api/pin?username=ITZ-DEVIL-OP&show_icons=true&theme=dark&hide_border=true&repo=LIGHT-YAGAMI-ROBOT">
 
 ![logo](https://telegra.ph/file/19d3e64192ed3037792ab.jpg)
 <p align="center">
