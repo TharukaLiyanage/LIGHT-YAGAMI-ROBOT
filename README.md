@@ -6,8 +6,9 @@
 
 # <p align="left"><a href="https://github.com/ITZ-DEVIL-OP/LIGHT-YAGAMI-ROBOT"><img src="https://github-readme-stats.vercel.app/api/pin?username=ITZ-DEVIL-OP&show_icons=true&theme=dark&hide_border=true&repo=LIGHT-YAGAMI-ROBOT">
 
-![logo](https://telegra.ph/file/19d3e64192ed3037792ab.jpg)
 <p align="center">
+  <img src="https://media.giphy.com/media/a43f7d8434a77c11fbb05/giphy.gif">
+</p>
 
 # Credits
 <b>Khud Ke Code se banaya Hu Bsdk // NO Credits</b>
