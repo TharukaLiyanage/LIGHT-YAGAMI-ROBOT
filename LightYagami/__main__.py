@@ -59,7 +59,7 @@ PM_START_TEXT = """
 """
 
 HELP_STRINGS = """
-😈 𝙺𝙸𝚁𝙰 [😈](https://telegra.ph/file/c6fd956f3ea3974020439.jpg) 𝙸𝚂 𝙷𝙴𝚁𝙴
+😈 HAZEL [😈](https://telegra.ph/file/2f0929cfc328a8a12c4ae.jpg) 𝙸𝚂 𝙷𝙴𝚁𝙴
 𝙷𝙴𝚁𝙴 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁 𝚆𝙸𝚃𝙷 𝚃𝙷𝙴𝚂𝙴 𝙿𝙾𝚆𝙴𝚁
 𝙸 𝚆𝙸𝙻𝙻 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿
 𝙰𝙽𝙳 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙻𝙸𝙶𝙷𝚃 𝚈𝙰𝙶𝙰𝙼𝙸 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿
@@ -72,8 +72,7 @@ HELP_STRINGS = """
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/ec96ed00f0762e47ba35b.jpg"
-LIGHT_IMG = "https://telegra.ph/file/04187c8699b523c6e796f.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/2f0929cfc328a8a12c4ae.jpg"
 
 DONATE_STRING = """ɴᴏ ɴᴇᴇᴅ ɪ'ᴍ ʀɪᴄʜ!
 """
@@ -193,16 +192,16 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="➕ α∂∂ мє тσ уσυя gяσυρ ➕",
-                            url="t.me/LIGHT_YAGAMI_ROBOT?startgroup=true".format(context.bot.username))
+                            text="➕ ADD ME YOUR GROUP ➕",
+                            url="t.me/TheHazelBot?startgroup=true".format(context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="🎯 ѕυρρσят gяσυρ 🎯",
-                             url=f"https://t.me/KIRASUPPORT"),
+                             url=f"https://t.me/ElenaBotTharu"),
                          InlineKeyboardButton(
                              text="🔀 ʝσιη ƒσя υρ∂αтєѕ 🔀",
-                             url="https://t.me/KIRAUPDATESS")
+                             url="https://t.me/TharuBots")
                      ],
                     
                     [
@@ -219,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                     ]]))
     else:
         update.effective_message.reply_video(
-                LIGHT_IMG, caption=f"======❤ 𝐇𝐞𝐥𝐥𝐨 𝐈'𝐌 𝐊𝐢𝐫𝐚 😈 𝐋𝐞𝐭'𝐬 𝐊𝐢𝐥𝐥 𝐁𝐚𝐝 𝐏𝐞𝐨𝐩𝐥𝐞𝐬\n𝐁𝐲 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐓𝐡𝐨𝐬𝐞 𝐍𝐚𝐦𝐞 𝐎𝐧 𝐃𝐞𝐚𝐭𝐡 𝐍𝐨𝐭𝐞 ❤======")      
+                    LIGHT_IMG, caption=f"======❤ 𝐇𝐞𝐥𝐥𝐨 𝐈'𝐌 HAZEL 😈 𝐋𝐞𝐭'𝐬 𝐊𝐢𝐥𝐥 𝐁𝐚𝐝 𝐏𝐞𝐨𝐩𝐥𝐞𝐬\n𝐁𝐲 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐓𝐡𝐨𝐬𝐞 𝐍𝐚𝐦𝐞 𝐎𝐧 𝐃𝐞𝐚𝐭𝐡 𝐍𝐨𝐭𝐞 ❤======")      
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
     error = context.error
@@ -468,7 +467,7 @@ def get_settings(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton(
                         text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ sᴇᴛᴛɪɴɢs 🖤",
-                        url="t.me/LIGHT_YAGAMI_ROBOT?start=stngs_{}".format(
+                        url="t.me/TheHazelBot?start=stngs_{}".format(
                             context.bot.username, chat.id))
                 ]]))
         else:
@@ -489,7 +488,7 @@ def donate(update: Update, context: CallbackContext):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True)
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1784208731 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -533,7 +532,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@YAGAMIBOT_SUPPORT", "Time To Write Names On Death Note")
+            dispatcher.bot.sendMessage(f"@ElenaBotTharu", "Time To Write Names On Death Note")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!")
